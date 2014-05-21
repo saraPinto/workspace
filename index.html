@@ -1,79 +1,168 @@
+
+
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Workspace : " />
+    <title>
+      Stuff
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="simpleGrid.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,100,400' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Workspace</title>
   </head>
+  <body >
+    <div class="header">
+      <div class="headerContent grid grid-pad">
+        <div class="col-1-2 header-content">
+          <h1>
+            Work in Progress... 
+          </h1>
+          <p>
+            This is a temporary showoff of various <span>apps</span> & <span>games</span> we developed for <span>mobile devices</span>.
+          </p>
+          <p>by João Leal & Sara Pinto</p>
+        </div>
+        <div id="viewport"></div>
+      </div>
+    </div><!-- Grid 2/3 and 1/3-->
+    <div class="grid grid-pad">
+    <br/>
+      <div class="features">
+        <br/>
+        <br/>
+        <h1>
+          Games
+        </h1>
+      </div>
+      <div class="col-1-4 icon-box">
+        <div class="content">
+          <h2>
+            Tasty Carrot
+          </h2>
+          <h3>
+            Finished! (Source Code + Assets + IP Sold to Publisher - TBA)
+          </h3>
+          <br/>
+          <img src="2qn4fmf.png"  alt="Responsive">
+          <p>
+            When you drop the tastiest food of them all in the biggest hole what you gonna do? Jump of course!
+           Use your agility to eat your way through the deepest hole! The lower you go more challenging it gets, eat gold carrots for double score and catch the gift for a mysterious prize!
+          </p>
+          <h3>
+            Platforms:
+          </h3>
+          <p>
+            Windows Phone, Web (Flash)
+          </p>
+        </div>
+      </div>
 
-  <body>
+      <div class="content">
+          <h2>
+            Fishing Humans
+          </h2>
+          <h3>
+            Finished! (License sold)
+          </h3>
+          <br/>
+          <img src="1y1if7.png"  alt="Responsive">
+          <p>
+            Fishing Humans is a fun physics-based puzzler. Each level requires logic and skill. Find a way to eat the brains of the humans, careful not to kill them in the process!
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/saraPinto/workspace">View on GitHub</a>
+            Use the least amount of arrows/hooks to get maximum score.
+          </p>
+          <h3>
+            Platforms:
+          </h3>
+          <p>
+            AIR
+          </p>
+        </div>
+      </div>
 
-          <h1 id="project_title">Workspace</h1>
-          <h2 id="project_tagline"></h2>
+      <div class="features">
+        <br/>
+        <br/>
+        <h1>
+          Apps
+        </h1>
+      </div>
+      <div class="col-1-4 icon-box">
+        <div class="content">
+          <h2>
+            Wispoo
+          </h2>
+          <h3>
+            Academic Project
+          </h3>
+          <br/>
+          <img src="wispoo.png"  alt="Responsive">
+          <p>
+            An academic project that helps drivers receive and insert road related information (crowdsourcing) through voice recognition in portuguese.
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/saraPinto/workspace/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/saraPinto/workspace/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+            The major accomplishment was improving the Google Voice Recognition by introducing the possibility to recognize voice in a transparent and continuous way. The system is also designed to be very scalable.
+        </p><p>
+            Tech used:
+            Google Voice API
+            , NodeJS
+            , MongoDB
+            , Java
+          </p>
+           <p><span><a href="https://www.youtube.com/watch?v=qi5771sKIaY?hd=1">Click Here See demo!</a></span></p>  
+          <h3>
+            Platforms:
+          </h3>
+          <p>
+            Android
+          </p>
+        </div>
+        <h2>
+            PixeBoard
+          </h2>
+          <h3>
+            Academic Project
+          </h3>
+          <br/>
+          <p><iframe width="420" height="315" src="http://www.youtube.com/embed/CBKBkPl_gik?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></p>
+          <p>
+           PixelBoard is a social and collaborative drawing application. It
+was inspired by the current social network phenomenon and
+recent interest in drawing with mobile devices.
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+This app tries to be a massive social drawing app by having a
+network with many users with the unique ability to interact with
+each other through drawing.
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+It's not only dedicated to those who
+are talented at drawing but also to those who simply like to share
+their ideas with the world.
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+It works by having a big canvas where many people can draw at
+the same time. The app makes it easy to work on such a big
+canvas by having different levels of zoom, this also provides new
+artistic opportunities to those who want to work collaboratively to
+make something bigger than a normal display.
+          </p>
+ 
+          <h3>
+            Platforms:
+          </h3>
+          <p>
+            Android
+          </p>
+        </div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+      </div>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Workspace maintained by <a href="https://github.com/saraPinto">saraPinto</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+    <footer class="grid grid-pad">
+      <div class="col-1-1">
+        <div class="ftcontent">
+          <p class="cred">João Leal & Sara Pinto </a></p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
